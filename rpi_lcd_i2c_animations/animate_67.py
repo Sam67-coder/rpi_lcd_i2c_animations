@@ -6,7 +6,7 @@ def animate_67(lcd, row=0, delay=0.15):
     until they meet in the center of the LCD.
     """
 
-    cols = lcd.num_cols
+    cols = lcd.num_columns
 
     left_pos = 0
     right_pos = cols - 1

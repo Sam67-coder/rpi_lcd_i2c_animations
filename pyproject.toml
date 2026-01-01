@@ -1,0 +1,5 @@
+from rpi_lcd_i2c import I2cLcd
+from rpi_lcd_i2c_animations import animate_67
+
+lcd = I2cLcd(1, 0x27, 2, 16)
+animate_67(lcd)
